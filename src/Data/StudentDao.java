@@ -41,7 +41,7 @@ public class StudentDao {
             return;
         }
         Collections.sort(students);
-        for (int i = 1; i < students.size(); i++) {
+        for (int i = 0; i < students.size(); i++) {
             System.out.println("--------Student " + i + "--------");
             System.out.println("Name: " + students.get(i).getName());
             System.out.println("Classes: " + students.get(i).getClasses());
